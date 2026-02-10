@@ -1,1 +1,26 @@
-# vision-pick-place-ros2
+# Vision-Based Pick and Place using ROS2
+
+This project demonstrates a simplified vision-based robotic pick-and-place
+pipeline built using ROS2 simulation concepts.
+
+## Overview
+The system simulates a robotic manipulator with an eye-in-hand camera that:
+1. Detects an object
+2. Estimates pose
+3. Plans motion
+4. Executes pick and place
+
+## Architecture
+Camera → Perception Node → Pose Estimation → Motion Planner → Gripper Control → Place
+
+## Nodes Implemented
+- perception_node.py  
+  Publishes detected object pose in camera frame
+
+- motion_planner.py  
+  Receives object pose and plans pick-and-place motion
+
+- gripper_control.py  
+  Simulates gripper open/close commands
+
+## ROS2 Structure
