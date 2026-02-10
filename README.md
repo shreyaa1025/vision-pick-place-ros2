@@ -14,6 +14,8 @@ The system simulates a robotic manipulator with an eye-in-hand camera that:
 Camera → Perception Node → Pose Estimation → Motion Planner → Gripper Control → Place
 ![Architecture](architecture.png)
 
+## Demo Video
+The demo video for this project is included in the repository.
 
 ## Nodes Implemented
 - perception_node.py  
