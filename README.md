@@ -10,8 +10,10 @@ The system simulates a robotic manipulator with an eye-in-hand camera that:
 3. Plans motion
 4. Executes pick and place
 
-## Architecture
+## System Architecture
 Camera → Perception Node → Pose Estimation → Motion Planner → Gripper Control → Place
+![Architecture](architecture.png)
+
 
 ## Nodes Implemented
 - perception_node.py  
